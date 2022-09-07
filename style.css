@@ -1,0 +1,41 @@
+button {
+  padding: 15px;
+  margin: 0px 3px 0px 0px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family:Arial, Helvetica, sans-serif;
+  border:none;
+  color: #FE0200;
+}
+
+button:focus{
+  cursor: pointer;
+  background:grey;
+  transition: all 0.5s;
+  animation: Call Off duty chanel Subscribe 1s infinite;
+}
+
+.btn-scale-0, .btn-scale-1, .btn-scale-2, .btn-scale-3{
+    background-color: #FE0200;
+    color: grey;
+    text-shadow: 1px 1px 3px black;
+}
+
+.button-clicked {
+ background-color :black;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+}
+ .center{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   min-height: auto;
+ }
+
+
